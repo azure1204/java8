@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table .MyTable{
+            font-size: 25pt;
+            font-family: "Lucida Calligraphy";
+            color: floralwhite;
+        }
+        tr .Myclass{
+            font-size: 25pt;
+            font-family: "Lucida Calligraphy";
+            color: floralwhite;
+        }
+    </style>
+    <script>
+        function handleClick(){
+            var $table = document.getElementById('student');
+
+        }
+    </script>
+
+</head>
+
+    <table border="1px;solid" bgcolor="#ff7f50" id="student" class='MyTable'>
+        <thead>
+            <tr class="Myclass">
+                <td>Student ID</td>
+                <td>Student Name</td>
+                <td>Student Marks</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Amol</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sachin</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Amit</td>
+                <td>70</td>
+            </tr>
+        </tbody>
+    </table>
+<button onclick="handleClick()">Go</button>
+</body>
+</html>
